@@ -17,5 +17,5 @@ $(document).ready(function(){
         $("#lname").val("");
         return false;
     });
-
+    return false;
 });
