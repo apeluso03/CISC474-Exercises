@@ -13,8 +13,8 @@ $(document).ready(function(){
         console.log("Handler for 'click' called");
         var value = $("#fname").val() + " " + $("#lname").val();
         $("#jumbotron").text(value);
-        $("#fname").val();
-        $("#lname").val();
+        $("#fname").val("");
+        $("#lname").val("");
         return false;
     });
 
